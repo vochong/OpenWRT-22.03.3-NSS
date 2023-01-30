@@ -1,0 +1,1239 @@
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168472
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8547
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9297
+SHA256sum: a8efbdef34c713dcdae635736e79bc293171bbdea9f472e9df0fdf4e3f9eb0ba
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: conntrack
+Version: 1.4.6-3
+Depends: libc, libnetfilter-conntrack3, libnetfilter-cttimeout1, libnetfilter-cthelper0, libnetfilter-queue1
+Source: feeds/packages/net/conntrack-tools
+SourceName: conntrack
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1637403871
+CPE-ID: cpe:/a:netfilter:conntrack-tools
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 20235
+Filename: conntrack_1.4.6-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 21045
+SHA256sum: 4b4df0bceb32467a23968c1e8134760e6b9a6a3c0a3334b627d7d80c49402b1b
+Description:  Conntrack is a userspace command line program targeted at system
+ administrators. It enables them to view and manage the in-kernel
+ connection tracking state table.
+
+Package: curl
+Version: 7.86.0-2
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1667474189
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 56136
+Filename: curl_7.86.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 56869
+SHA256sum: 0e4de62090bf7d3df4be37f39a1312778ffebcd34005996e63192f6084454a00
+Description:  A client-side URL transfer utility
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+SourceDateEpoch: 1613865735
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5073
+Filename: etherwake_1.09-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6017
+SHA256sum: 704fe8f405f81204fd4c370e477661a42e3b5fd20899583132bbeb0ddd809e68
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: freeradius3-common
+Version: 3_0_21-2
+Depends: libc, libopenssl1.1, libcap, libpcap1, libncurses6, libpcre, libreadline8, libtalloc, libatomic1
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-common
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 209886
+Filename: freeradius3-common_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 209921
+SHA256sum: 08d2bcfc1d774bf3cb6677670e0afc13a4bd098087381554b1992a952071b253
+Description:  common files
+
+Package: freeradius3-default
+Version: 3_0_21-2
+Depends: libc, freeradius3, freeradius3-democerts, freeradius3-mod-always, freeradius3-mod-attr-filter, freeradius3-mod-chap, freeradius3-mod-detail, freeradius3-mod-digest, freeradius3-mod-eap, freeradius3-mod-eap-gtc, freeradius3-mod-eap-leap, freeradius3-mod-eap-md5, freeradius3-mod-eap-mschapv2, freeradius3-mod-eap-peap, freeradius3-mod-eap-pwd, freeradius3-mod-eap-tls, freeradius3-mod-eap-ttls, freeradius3-mod-exec, freeradius3-mod-expiration, freeradius3-mod-expr, freeradius3-mod-files, freeradius3-mod-logintime, freeradius3-mod-mschap, freeradius3-mod-pap, freeradius3-mod-preprocess, freeradius3-mod-radutmp, freeradius3-mod-realm, freeradius3-mod-unix
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-default
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: freeradius3-default_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1060
+SHA256sum: f96fef39c46388d53b4f29b33e0893e0cd8e2cba56b06afe5084216e97ac3086
+Description:  This meta-package contains only dependencies for modules needed in
+ FreeRADIUS default configuration.
+
+Package: freeradius3-democerts
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-democerts
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4199
+Filename: freeradius3-democerts_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4982
+SHA256sum: 41764676bc70fd1ad8b15adb8cc6bdbec3e65e8c917ca9921d1f03e4cd07d24c
+Description:  Demo certificates to test the server
+
+Package: freeradius3-mod-always
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-always
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2803
+Filename: freeradius3-mod-always_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3613
+SHA256sum: b04d73c1e1cc1d34545449e38cd8cb11f0f21789cfd7355951a3aa29cb35514d
+Description:  Always module
+
+Package: freeradius3-mod-attr-filter
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-attr-filter
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6505
+Filename: freeradius3-mod-attr-filter_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7429
+SHA256sum: 450957a14ea764f6ff8a6040670212ddba870f990e698bed94d991220dc309f5
+Description:  ATTR filter module
+
+Package: freeradius3-mod-chap
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-chap
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3314
+Filename: freeradius3-mod-chap_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4121
+SHA256sum: f1b4a631923ff27d9dd6156f226294d27385838a5950db99675a81a5f01b25c4
+Description:  CHAP module
+
+Package: freeradius3-mod-detail
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-detail
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6684
+Filename: freeradius3-mod-detail_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7519
+SHA256sum: a33f268b75f011c0a30df0e306764bfd04687c0ecfebfb6d5f2aaae550c67e94
+Description:  Detailed accounting module
+
+Package: freeradius3-mod-digest
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-digest
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5543
+Filename: freeradius3-mod-digest_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6375
+SHA256sum: 124753ed727c64f8aed9c8b2b8ed417f8d886bfa16d327f9f15c2fa2d2625ee9
+Description:  HTTP Digest Authentication
+
+Package: freeradius3-mod-eap-gtc
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-gtc
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2947
+Filename: freeradius3-mod-eap-gtc_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3701
+SHA256sum: 2fe9ffd5e510005c08ed33552a309768f506002309a383edaf4308f8a5120461
+Description:  EAP/GTC module
+
+Package: freeradius3-mod-eap-leap
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-leap
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7220
+Filename: freeradius3-mod-eap-leap_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8042
+SHA256sum: 3bf39ad9b31f217c488abf0610d0223b9747537dcd8930916bac17015b0d976a
+Description:  EAP/LEAP module
+
+Package: freeradius3-mod-eap-md5
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-md5
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3702
+Filename: freeradius3-mod-eap-md5_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4448
+SHA256sum: 788537ae21997319292e160a79799b222fb93f5bf8d2922458e4bd1c18544510
+Description:  EAP/MD5 module
+
+Package: freeradius3-mod-eap-mschapv2
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap, freeradius3-mod-mschap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-mschapv2
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5911
+Filename: freeradius3-mod-eap-mschapv2_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6676
+SHA256sum: 5f51e9e008a95db0ac68c29410ff4bc94f4abdb15c0b0c2efbcab34257b61801
+Description:  EAP/MS-CHAPv2 module
+
+Package: freeradius3-mod-eap-peap
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-peap
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10079
+Filename: freeradius3-mod-eap-peap_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10877
+SHA256sum: 376cab412302f025a2d66117d58d2368795bbc4c5d49ca80b551336864d3ac0a
+Description:  EAP/PEAP module
+
+Package: freeradius3-mod-eap-pwd
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-pwd
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11281
+Filename: freeradius3-mod-eap-pwd_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12025
+SHA256sum: 8db565a7d69b23c5eabe6cae8732eadb7ad0512056d3f3bc4b9583756cc93f6f
+Description:  EAP/PWD module
+
+Package: freeradius3-mod-eap-tls
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-tls
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3158
+Filename: freeradius3-mod-eap-tls_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3910
+SHA256sum: 2bba481559ddc3cf313a4fcc7148d8c3cb702e1449b13a73f27e467951cb1a25
+Description:  EAP/TLS module
+
+Package: freeradius3-mod-eap-ttls
+Version: 3_0_21-2
+Depends: libc, freeradius3-mod-eap-tls
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap-ttls
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9532
+Filename: freeradius3-mod-eap-ttls_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10290
+SHA256sum: c75b343f225f40ae9e3dcf91eef63ac2d69e4e2d1716efcfc176703a68c4fa12
+Description:  EAP/TTLS module
+
+Package: freeradius3-mod-eap
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-eap
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29604
+Filename: freeradius3-mod-eap_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 30362
+SHA256sum: cd3c67819cdce5602fc39d446afd772ab89016146c6f68f519ac481dd52b059b
+Description:  Base EAP module
+
+Package: freeradius3-mod-exec
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-exec
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4639
+Filename: freeradius3-mod-exec_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5450
+SHA256sum: 68393b24f785e85181b57b3a8373607480c23461216dd1b1c8f95639061e0249
+Description:  EXEC module
+
+Package: freeradius3-mod-expiration
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-expiration
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2668
+Filename: freeradius3-mod-expiration_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3466
+SHA256sum: 64b6dec85abc09d04036b9455e088170acdcdcc8a65b0e526c485a59ce716049
+Description:  Expiration module
+
+Package: freeradius3-mod-expr
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-expr
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13560
+Filename: freeradius3-mod-expr_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14358
+SHA256sum: 581236acc4a3e3d18c0e1a130287aa96a6f6079492189c775d81781eff99378e
+Description:  EXPR module
+
+Package: freeradius3-mod-files
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-files
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8087
+Filename: freeradius3-mod-files_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8978
+SHA256sum: 344c0a193cd63f49d82c0cf4529607fea3c4f3549e3e480ad9331eb685a80165
+Description:  Module using local files for authorization
+
+Package: freeradius3-mod-logintime
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-logintime
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4512
+Filename: freeradius3-mod-logintime_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5320
+SHA256sum: 72d68585ed97f385d008b1c2125c7fae72b5a713a56f1c3ed37c11593555cc0d
+Description:  Logintime module
+
+Package: freeradius3-mod-mschap
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-mschap
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18281
+Filename: freeradius3-mod-mschap_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19134
+SHA256sum: d5312a85dcaab1a55c2fe4b3c8492c48e361291c6312ceadfb3802188dad158b
+Description:  MS-CHAP and MS-CHAPv2 module
+
+Package: freeradius3-mod-pap
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-pap
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8736
+Filename: freeradius3-mod-pap_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9557
+SHA256sum: 6e5f60e8fc2ceec9dbc73c26123c0682314061cad9ef9e1a0ddf3b25b3a8c276
+Description:  PAP module
+
+Package: freeradius3-mod-preprocess
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-preprocess
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7256
+Filename: freeradius3-mod-preprocess_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8132
+SHA256sum: 4f60438a38e8f8e2a3e1309d58b3ce5ac004c1e0cad0d9245de49cf643955f2d
+Description:  Request pre-processing module
+
+Package: freeradius3-mod-radutmp
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-radutmp
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6879
+Filename: freeradius3-mod-radutmp_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7718
+SHA256sum: e4f5065aa0a5574c28b6789debf633b4964b18c65b8dcbc04836086c9796ea3d
+Description:  Radius UTMP module
+
+Package: freeradius3-mod-realm
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-realm
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5131
+Filename: freeradius3-mod-realm_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5962
+SHA256sum: 6468aee4209f1b5720ac25cef00010c63b849c58dcfe7654bc7e06522fa9aaa2
+Description:  Realms handling module
+
+Package: freeradius3-mod-unix
+Version: 3_0_21-2
+Depends: libc, freeradius3
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-mod-unix
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5054
+Filename: freeradius3-mod-unix_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5874
+SHA256sum: 079f945e97c354702dcefd44c718d7851074d523ea23257058ff597e98e5f50b
+Description:  System Authentication
+
+Package: freeradius3-utils
+Version: 3_0_21-2
+Depends: libc, freeradius3-common
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3-utils
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 69936
+Filename: freeradius3-utils_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 70342
+SHA256sum: 9a2afbaca19301f759432d648f918ecedfcefc53cf961e8f9c872bc6336e591c
+Description:  Misc. client utilities
+
+Package: freeradius3
+Version: 3_0_21-2
+Depends: libc, freeradius3-common
+Source: feeds/packages/net/freeradius3
+SourceName: freeradius3
+License: GPL-2.0
+LicenseFiles: COPYRIGHT LICENSE
+Section: net
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:freeradius:freeradius
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 197322
+Filename: freeradius3_3_0_21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 196777
+SHA256sum: 6715e6aaab1f8962a33f0cd811d8c772526997cb2599f73010864e2db70fd875
+Description:  A flexible RADIUS server (version 3)
+
+Package: iperf3
+Version: 3.11-1
+Depends: libc
+Source: feeds/packages/net/iperf3
+SourceName: iperf3
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1646786770
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 47191
+Filename: iperf3_3.11-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 47981
+SHA256sum: 30808171c65a654dfcb3dc74d885d19fe26e1612d488265831615d34fb0b1e97
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: irqbalance
+Version: 1.9.2-1
+Depends: libc
+Source: feeds/packages/utils/irqbalance
+SourceName: irqbalance
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1668280432
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 49905
+Filename: irqbalance_1.9.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 50873
+SHA256sum: eedffae1a4ba55e6d33b82dc37db4353de7f4bef3ad7c1d3a49bf3704155986c
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6140
+Filename: libattr_2.5.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6926
+SHA256sum: 8dae97ce0adfbc182b60c4a08de5ae5650e73b3c57ba494a086ae72519555acf
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcurl4
+Version: 7.86.0-2
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1667474189
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 151777
+Filename: libcurl4_7.86.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 152048
+SHA256sum: ec526e3fabe9a59baf45df59dff5fd5afd679ffcbe764ba58a01badf23060ebc
+Description:  A client-side URL transfer library
+
+Package: libevdev
+Version: 1.13.0-1
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665687485
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 24975
+Filename: libevdev_1.13.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24770
+SHA256sum: 4bf181297b80647b99bb40e3b73833aa456bf184bee6f451723053c67b4af52b
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libgd
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+Source: feeds/packages/libs/libgd
+SourceName: libgd
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665049542
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 81260
+Filename: libgd_2.3.2-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 81078
+SHA256sum: 325e35121d8c028cba11326996f077fc710abfe6201d02e2c8367b114114a8b7
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libjpeg-turbo
+Version: 2.1.2-1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1639715161
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 97913
+Filename: libjpeg-turbo_2.1.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 98571
+SHA256sum: e13acec048aa3045db7d4c2f01e489bbff86f18fa622df39dfe6152dc0b75c19
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: liblzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1635477716
+ABIVersion: 2
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 35988
+Filename: liblzo2_2.10-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 36843
+SHA256sum: b8dcd5d916092c11ce2296f653875b49ac0bac68dd9bef6841f6eeedc6b79354
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnetfilter-cthelper0
+Version: 1.0.0-2
+Depends: libc, libmnl0
+Provides: libnetfilter-cthelper
+Source: feeds/packages/libs/libnetfilter-cthelper
+SourceName: libnetfilter-cthelper
+License: GPL-2.0+
+Section: libs
+SourceDateEpoch: 1606547806
+ABIVersion: 0
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3604
+Filename: libnetfilter-cthelper0_1.0.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4394
+SHA256sum: 4d7eec6edff24e8827677eb4d7be4f7e729426a7b6fe0ab46a454cf444e1325b
+Description:  libnetfilter_cthelper is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking helpers. 
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-cttimeout1
+Version: 1.0.0-2
+Depends: libc, libmnl0
+Provides: libnetfilter-cttimeout
+Source: feeds/packages/libs/libnetfilter-cttimeout
+SourceName: libnetfilter-cttimeout
+License: GPL-2.0+
+Section: libs
+SourceDateEpoch: 1606547755
+ABIVersion: 1
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3694
+Filename: libnetfilter-cttimeout1_1.0.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4540
+SHA256sum: 2ce6b734d7acf13a1f76ef97b873a457672b95943e9f557e7486903477856a9f
+Description:  libnetfilter_cttimeout is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking timeout handling.
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-queue1
+Version: 1.0.5-4
+Depends: libc, libmnl0, libnfnetlink0
+Provides: libnetfilter-queue
+Source: feeds/packages/libs/libnetfilter-queue
+SourceName: libnetfilter-queue
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1613865735
+ABIVersion: 1
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8542
+Filename: libnetfilter-queue1_1.0.5-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9400
+SHA256sum: c71701865f36e3aee78eb55d572520bc06e4348ec619c05e6482c5b02738f3d4
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to packets that have been queued by the kernel
+ packet filter.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1628451615
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 56151
+Filename: libnghttp2-14_1.44.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 55207
+SHA256sum: f3f626798e1cec3c08cc6d0c269b87aee7da3f986b722ea2a4e06888ba5f0bdd
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1623557101
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 85170
+Filename: libpng_1.6.37-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 85986
+SHA256sum: df81bc3a8ae8bff7063d6e8d6f074abdd83d721afecd0bc1c8acd7dc6c16f240
+Description:  A PNG format files handling library
+
+Package: libqrencode
+Version: 4.1.1-1
+Depends: libc
+Source: feeds/packages/libs/qrencode
+SourceName: libqrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1623557101
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14768
+Filename: libqrencode_4.1.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 15659
+SHA256sum: abeb8ecac22e984276205e23c82a1e27ae7030e199c4b613ff2597cda92644b9
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: libtalloc
+Version: 2.3.1-4
+Depends: libc, libattr
+Source: feeds/packages/libs/libtalloc
+SourceName: libtalloc
+License: LGPL-3.0-or-later
+Section: libs
+SourceDateEpoch: 1644451475
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12835
+Filename: libtalloc_2.3.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13598
+SHA256sum: c887029645e1a670a29f24022ba9b78ce94f04d9994cc991cce59696439f2a2e
+Description:  talloc is a hierarchical, reference counted memory pool system with destructors.
+
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1648163185
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8605
+Filename: libudev-zero_1.0.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9416
+SHA256sum: 8c632814648724920d460fc3e8fb2f6abfcb52ae5a4c24b8dcb40b313e2d9644
+Description:  Drop-in replacement for libudev
+
+Package: libwebp
+Version: 1.2.1-2
+Depends: libc
+Source: feeds/packages/libs/libwebp
+SourceName: libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1633200907
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 221784
+Filename: libwebp_1.2.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 222572
+SHA256sum: e3fca8fff436abd55ab41d808a3d57e35c9acee2757e74be6cb69674cbdd548a
+Description:  The libwebp package contains a library for the WebP format.
+
+Package: mtr-json
+Version: 0.95-2
+Depends: libc, libncurses6, jansson4
+Provides: mtr
+Source: feeds/packages/net/mtr
+SourceName: mtr-json
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1647485129
+CPE-ID: cpe:/a:matt_kimball_and_roger_wolff:mtr
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 36606
+Filename: mtr-json_0.95-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 37473
+SHA256sum: e012b3ec6c535367d6989c39536f9abaa0e7e75c6da68b4201646aec537dc2ae
+Description:  Full screen ncurses traceroute tool With JSON
+
+Package: ncat
+Version: 7.91-1
+Depends: libc, libpcap1
+Source: feeds/packages/net/nmap
+SourceName: ncat
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1616276821
+CPE-ID: cpe:/a:nmap:nmap
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 61614
+Filename: ncat_7.91-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 62507
+SHA256sum: a49dce7dfbc7d390afbef782288dd30ba111864a009df936c9b8576c6ac901a6
+Description:  Much-improved reimplementation of Netcat
+
+Package: nmap
+Version: 7.91-1
+Depends: libc, libpcap1, libstdcpp6, zlib, libpcre
+Source: feeds/packages/net/nmap
+SourceName: nmap
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1616276821
+CPE-ID: cpe:/a:nmap:nmap
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2276742
+Filename: nmap_7.91-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2270192
+SHA256sum: 3413388e30d871b29be263f58918fda364f09cceab755afa5627cfe21a820ff9
+Description:  Utility for network exploration or security auditing
+
+Package: ntpdate
+Version: 4.2.8p15-4
+Depends: libc, libopenssl1.1, libpthread, libcap
+Source: feeds/packages/net/ntpd
+SourceName: ntpdate
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+SourceDateEpoch: 1641946980
+CPE-ID: cpe:/a:ntp:ntp
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 51064
+Filename: ntpdate_4.2.8p15-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 51935
+SHA256sum: ff9e3346b535a7970469cdddd3900706b3d174f9701d95595d247b995b433da7
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains ntpdate.
+
+Package: openssh-sftp-client
+Version: 8.9p1-1
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-client
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1647485618
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 80313
+Filename: openssh-sftp-client_8.9p1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 81044
+SHA256sum: 256d0dd8fecc71e2576400105bec8582c918c32a18c71fd32bdd46ddc11bb078
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 8.9p1-1
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-server
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1647485618
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53789
+Filename: openssh-sftp-server_8.9p1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54529
+SHA256sum: d15f579c01e5ee6a0cbc281b1cde19c307cd38b36082836e8bd64f23296ddce3
+Description:  OpenSSH SFTP server.
+
+Package: openvpn-openssl
+Version: 2.5.7-3
+Depends: libc, kmod-tun, liblzo2, libopenssl1.1
+Provides: openvpn, openvpn-crypto
+Source: feeds/packages/net/openvpn
+SourceName: openvpn-openssl
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1664871760
+CPE-ID: cpe:/a:openvpn:openvpn
+Maintainer: Magnus Kroken <mkroken@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 207161
+Filename: openvpn-openssl_2.5.7-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 207801
+SHA256sum: 0e35247660f524d559f849d9c7a704137c53f6f528dfdd7be7f022c31f018613
+Description:  Open source VPN solution using OpenSSL
+
+Package: procps-ng-free
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/free:/usr/libexec/free-procps-ng
+Source: feeds/packages/utils/procps-ng
+SourceName: procps-ng-free
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+SourceDateEpoch: 1613865735
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5052
+Filename: procps-ng-free_3.3.16-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5805
+SHA256sum: 9b51d034c8a165250f6454668bda8d85ae429a7d29f9cd22d7fb2c26a7bdd63f
+Description:  Installs the applet free.
+
+Package: procps-ng-pgrep
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/pgrep:/usr/libexec/pgrep-procps-ng
+Source: feeds/packages/utils/procps-ng
+SourceName: procps-ng-pgrep
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+SourceDateEpoch: 1613865735
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8071
+Filename: procps-ng-pgrep_3.3.16-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8854
+SHA256sum: 2670de916cda90cb7929e80927af287948aeae96d5843e55eb43d6bb1c6840d2
+Description:  Installs the applet pgrep.
+
+Package: procps-ng-watch
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/bin/watch:/usr/libexec/watch-procps-ng
+Source: feeds/packages/utils/procps-ng
+SourceName: procps-ng-watch
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+SourceDateEpoch: 1613865735
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7404
+Filename: procps-ng-watch_3.3.16-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8225
+SHA256sum: 936e5d4a7ca72310f2ba25d2fa28892e92e4c302cbd63414eb0b462e8cd7e93f
+Description:  Installs the applet watch.
+
+Package: procps-ng
+Version: 3.3.16-3
+Depends: libc, libncurses6
+Source: feeds/packages/utils/procps-ng
+SourceName: procps-ng
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+SourceDateEpoch: 1613865735
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 26705
+Filename: procps-ng_3.3.16-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27411
+SHA256sum: 8b5192a176172f73324cabca2379407dfe7aac834a1c82da648b70aaa71010ac
+Description:  procps is a set of command line and full-screen utilities that provide information out of the pseudo-filesystem
+ most commonly located at /proc. This filesystem provides a simple interface to the kernel data structures.
+ The programs of procps generally concentrate on the structures that describe the processess running on the system.
+ 
+ NOTE: some utilities provided by procps-ng packages (ps, uptime, kill, ...) are installed as busybox applets, by default.
+ Conflicting applets should be removed from the build to avoid file conflicts.
+
+Package: qrencode
+Version: 4.1.1-1
+Depends: libc, libqrencode
+Source: feeds/packages/libs/qrencode
+SourceName: qrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1623557101
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9484
+Filename: qrencode_4.1.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10415
+SHA256sum: c6e80dbc11e016e019cbee79a1104a0c4e5254717879ab12911b4bea56c09c5d
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: ser2net
+Version: 3.5.1-5
+Depends: libc
+Source: feeds/packages/net/ser2net
+SourceName: ser2net
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1588975603
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 44250
+Filename: ser2net_3.5.1-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 45187
+SHA256sum: f65ca07b81edbb8810c3bc8f21ec4878e07a28873c8fc7e3bd920af03f6629fd
+Description:  This project provides a proxy that allows telnet/tcp connections to be made to
+ serial ports on a machine.
+
+Package: socat
+Version: 1.7.4.1-1
+Depends: libc, libpthread, librt
+Source: feeds/packages/net/socat
+SourceName: socat
+License: GPL-2.0-or-later OpenSSL
+LicenseFiles: COPYING COPYING.OpenSSL
+Section: net
+SourceDateEpoch: 1633048954
+CPE-ID: cpe:/a:dest-unreach:socat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 95638
+Filename: socat_1.7.4.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 96414
+SHA256sum: 7a828c01129827a139c663fda9018582240f630f16b22bdc63a8f3d77e31ab00
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
+
+Package: usbutils
+Version: 014-1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread
+Source: feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1629873092
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53210
+Filename: usbutils_014-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 53971
+SHA256sum: 4d768faf731e211696eed8516a6fb88085b00e8318c0cfc1ac3c1b836d493690
+Description:  USB devices listing utilities
+
+Package: vnstat
+Version: 1.18-3
+Depends: libc
+Source: feeds/packages/net/vnstat
+SourceName: vnstat
+Section: net
+SourceDateEpoch: 1647158522
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 76404
+Filename: vnstat_1.18-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 77278
+SHA256sum: 7d2b5075c158c41d3d57a2cf20f2593e3d5c0a789960c4173117270c036643d6
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.18-3
+Depends: libc, vnstat, libgd
+Source: feeds/packages/net/vnstat
+SourceName: vnstati
+Section: net
+SourceDateEpoch: 1647158522
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 34226
+Filename: vnstati_1.18-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 35151
+SHA256sum: 564ab9525ed4d7406dae53ac25ec6345d29f7ec9fd1c83b51876c802fc06a4fa
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: vsftpd
+Version: 3.0.5-1
+Depends: libc
+Source: feeds/packages/net/vsftpd
+SourceName: vsftpd
+License: GPLv2
+Section: net
+SourceDateEpoch: 1629573285
+CPE-ID: cpe:/a:beasts:vsftpd
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42152
+Filename: vsftpd_3.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 42940
+SHA256sum: 3af5fee1ea2fac62ffb22a4f372afda65e5850b2339d43c71594530d113665ce
+Description:  Fast and secure FTP server (no TLS)
+
